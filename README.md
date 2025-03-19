@@ -51,3 +51,5 @@ We welcome contributions from vegans, plant-based enthusiasts, and sustainabilit
 🌱 "Be the change you wish to see in the world." – Mahatma Gandhi
 
 🙌 Thank you for being a part of the movement! 💚🌎🐾
+
+for design figma link:  https://www.figma.com/design/kshjxqWDy0O66UZihM7wjh/Untitled?t=JFxmjZ3gqBrAIGtN-0
