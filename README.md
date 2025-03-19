@@ -4,6 +4,8 @@
 🌱 Vegan (Ahimsa Parmo Dharma) 🕉️
 "Ahimsa Parmo Dharma" – Non-violence is the highest duty. This repository is dedicated to spreading awareness about veganism, ethical living, and sustainability. 🌍✨
 
+![image]()
+
 🌿 What is Veganism?
 Veganism is more than just a diet; it's a way of life that seeks to avoid harming animals, protect the planet, and promote a healthy lifestyle. Whether you're new to veganism or an experienced plant-based advocate, this repository serves as a one-stop resource for all things vegan! 🌱
 
