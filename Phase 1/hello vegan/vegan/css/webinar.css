@@ -1,0 +1,643 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #3f3c3c;
+    color: white;
+}
+
+ .top-header {
+    background-color: #4e4c4c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px; /* Increased vertical padding */
+    width: 100%;
+    box-sizing: border-box;
+   }
+
+
+.site-header {
+    background-color: #4b4848;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.slogan {
+    font-size: 32px;
+    color: white;
+}
+
+ /* AUTH BUTTONS */
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+.auth-buttons a {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.join-btn {
+  background: linear-gradient(135deg, #6d6e6d, #4a4b4a);
+  color: white;
+  border: none;
+   border: 2px solid hsl(0, 0%, 11%);
+}
+
+.join-btn:hover {
+  background: linear-gradient(135deg, #3c403c, #424542);
+  transform: translateY(-2px);
+}
+
+.reg-btn {
+  background-color: transparent;
+  color: #999b99;
+  border: 2px solid #0c0d0c;
+}
+
+
+
+.reg-btn:hover {
+  background-color: #555e55;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.header-buttons .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #5b5b5b;
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-nav {
+    background-color: #363636;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #5b5b5b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.store-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+h2{
+  color: #2b792b;
+    font-family: 'Playfair Display', serif;
+     margin-bottom: 15px;
+}
+
+.webinar-content {
+    padding: 40px;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+}
+
+/**/
+
+.webinar-section {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+
+.webinar-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #2b792b;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.webinar-section p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.webinar-section ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+
+.webinar-section img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+
+.webinar-section ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.webinar-section ul li {
+  margin-bottom: 5px;
+}
+
+/**/
+
+
+.webinar-section {
+  background: #fff;
+     padding: 15px 20px;
+  font-size: 14px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 40px;
+}
+ .webinar-section img {
+  width: 100%;
+  max-width: 400px;  /* Adjust as needed (e.g., 300px, 350px) */
+  height: auto;
+  display: block;
+  margin: 10px auto; /* Center the image */
+  border-radius: 8px;
+}
+
+.webinar-section h2 {
+  margin-top: 0;
+   color: #2b792b;
+    font-family: 'Playfair Display', serif;    
+}
+
+
+.webinar-section .reg-btn {
+  background-color: #4a4a4a;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.webinar-section .reg-btn:hover {
+  background-color: #008f57;
+}
+
+.past-webinars, .more-upcoming {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+   .past-webinars, .more-upcoming {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    } 
+
+
+     .webinar-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+     .webinar-card h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+      color: #222;
+    }
+
+    .webinar-card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+     .reg-btn {
+     background-color: #4a4a4a;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition: background 0.3s ease;
+    }
+
+    .reg-btn{
+      background-color: #008f57;
+    }
+
+.webinar-section p, .webinar-section ul {
+    font-size: 18px;
+    text-align: left;
+}
+
+.webinar-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.webinar-section li {
+    margin: 10px 0;
+}
+
+
+/* MODALS (JOIN + REGISTER) */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal:target {
+  display: flex;
+}
+
+.modal-content {
+  background: transparent ;
+  padding: 30px;
+  border-radius: 12px;
+  width: 400px;
+  max-width: 90%;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.modal-content .close {
+  position: absolute;
+  top: 10px; right: 15px;
+  font-size: 24px;
+  color: #444;
+  text-decoration: none;
+}
+
+.modal-content form input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.modal-content form button {
+  background-color: #3c3c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.modal-content form button:hover {
+  background-color: #222;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .auth-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .auth-buttons a {
+    width: 100%;
+    text-align: center;
+  }
+}
+  /**/
+
+ .navbar {
+  background-color: #3b3b3b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #00ffae;
+}
+
+
+
+/*nav menu bar*/
+
+
+/* Dropdown container */
+.navbar .dropdown {
+  position: relative;
+}
+
+/* Hide dropdown menu by default */
+.navbar .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #3b3b3b;
+  padding: 10px 0;
+  min-width: 160px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+/* Dropdown links */
+.navbar .dropdown-menu li {
+  margin: 0;
+}
+
+.navbar .dropdown-menu li a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.navbar .dropdown-menu li a:hover {
+  background-color: #555;
+  color: #00ffae;
+}
+
+/* Show dropdown on hover */
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+  /**/
+  
+  .cart-icon {
+   
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  
+  .cart-icon:hover {
+    color: #00ffae;
+  }
+  
+  .cart-image {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  
+  .search-cart input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .search-cart {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* spacing between search form and cart icon */
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .search-form input {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .search-btn {
+    padding: 6px 12px;
+    background-color: #4b4948;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #008f57;
+  }
+  
+ .cart-icon:hover {
+  transform: scale(1.1);
+  color: #00ffae;
+}
+
+
+/*footer*/
+
+ .site-footer {
+    background-color: #1c1c1c;
+    color: #eee;
+    padding: 40px 20px 20px;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .footer-logo img {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo p {
+    max-width: 250px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-links ul,
+  .footer-contact {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .footer-links h4,
+  .footer-contact h4,
+  .footer-social h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #b3ffb3;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links ul li a,
+  .footer-contact a {
+    color: #eee;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul li a:hover,
+  .footer-contact a:hover {
+    color: #76d276;
+  }
+  
+  .footer-social .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-social .social-icons img {
+    width: 38px;
+    height: 38px;
+    transition: transform 0.3s;
+    border-radius: 20px;
+  }
+  
+  .footer-social .social-icons img:hover {
+    transform: scale(1.1);
+  }
+
+
+  /* Hover effect for social icons */
+.footer-social .social-icons a img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footer-social .social-icons a img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+}
+
+/* Hover effect for Hello Vegan logo */
+.footer-logo a img,
+.top-header .logo {
+  border-radius: 12px; /* Slightly rounded corners */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.footer-logo a img:hover,
+.top-header .logo:hover {
+  transform: rotate(-3deg) scale(1.05);
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+
+
+/* Optional: For a perfectly circular logo (only if it's square) */
+.top-header .logo.circle,
+.footer-logo a img.circle {
+  border-radius: 50%;
+}
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #ccc;
+  }
+  

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Webinar | Vegan Website</title>
+  <link rel="stylesheet" href="./css/webinar.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <!-- Header -->
+  <header>
+    <div class="top-header">
+      <img src="./images/logo.PNG" alt="Logo" class="logo">
+      <h2 class="slogan">"अहिंसा परमॊ धर्मः"</h2>
+      <div class="auth-buttons">
+        <a href="#joinModal" class="join-btn">Join</a>
+        <a href="#registerModal" class="reg-btn">Register</a>
+      </div>
+    </div>
+
+    <!-- JOIN MODAL (place this after your navbar) -->
+<div id="joinModal" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Join Hello Vegan</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Join Now</button>
+    </form>
+  </div>
+</div>
+
+
+<div id="registerModal" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Register Account</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Create Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</div>
+
+  </header>
+
+    <!-- Navbar -->
+<nav class="navbar">
+  
+ <ul>
+     <li class="dropdown">
+      <a href="index.html">Home</a>
+      <ul class="dropdown-menu">
+        <li><a href="webinar.html">Webinars</a></li>
+        <li><a href="#">Event</a></li>
+        <li><a href="#">Membership</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#">About ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Why we recommend a plant-based diet</a></li>
+        <li><a href="#">About PBHP UK</a></li>
+        <li><a href="#">Meet the team</a></li>
+        <li><a href="#">Affiliated Organisations</a></li>
+        <li><a href="">Our sponsors</a></li>
+      </ul>
+    </li>
+
+     <li class="dropdown">
+      <a href="#">Free Resources</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Factsheets</a></li>
+        <li><a href="#">Free Resources</a></li>
+        <li><a href="#">Health Zone</a></li>
+        <li><a href="#">Courses</a></li>
+      </ul>
+    </li>
+
+     <li class="dropdown">
+      <a href="#">Media</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Press Releases & Media</a></li>
+        <li><a href="#">Counsulation</a></li>
+        <li><a href="#">Campaign</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Podcast</a></li>
+      </ul>
+    </li>
+
+
+     <li class="dropdown">
+      <a href="#">Categories </a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Vegan Info</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="">Beauty</a></li>
+        <li><a href="">Apparel</a></li>
+        <li><a href="">Store</a></li>
+      </ul>
+    </li>
+
+     <li class="dropdown">
+      <a href="#">Contact </a>
+      <ul class="dropdown-menu">
+        <li><a href="#"></a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Vision</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="search-cart">
+  <form action="/search" method="GET" class="search-form">
+    <input type="text" name="q" placeholder="Search">
+    <button type="submit" class="search-btn">Search</button>
+    <a href="/cart" class="cart-icon">
+  <img src="images/vegan.png" alt="Cart" class="cart-image">
+</a>
+
+  </form>
+ 
+</div>
+  </nav>
+
+  <!-- Webinars Content -->
+  <main class="webinar-content">
+
+    <!-- Featured Upcoming -->
+    <section class="webinar-section">
+      <h2>Upcoming Webinar: Plant-Based Nutrition</h2>
+      <img src="./image2/b1.png" alt="Plant-Based Nutrition">
+      <p>Discover the incredible benefits of a whole food plant-based diet and how it helps prevent chronic diseases.</p>
+      <ul>
+        <li><strong>Date:</strong> June 15, 2025</li>
+        <li><strong>Time:</strong> 5:00 PM IST</li>
+        <li><strong>Speaker:</strong> Dr. Anjali Sharma, Nutritionist</li>
+        <li><strong>Platform:</strong> Zoom (link will be emailed)</li>
+      </ul>
+      <a href="#registerModal" class="reg-btn">Register Now</a>
+    </section>
+
+    <!-- More Upcoming Webinars -->
+    <section>
+      <h2>More Upcoming Webinars</h2>
+      <div class="more-upcoming">
+        <div class="webinar-card">
+          <img src="./image2/b2.png" alt="Webinar">
+          <h3>Vegan Lifestyle for Beginners</h3>
+          <p>Everything you need to transition smoothly into a cruelty-free vegan lifestyle.</p>
+          <p><strong>Date:</strong> July 10, 2025</p>
+          <a href="#registerModal" class="reg-btn">Register</a>
+        </div>
+        <div class="webinar-card">
+          <img src="./image2/b3.png" alt="Webinar">
+          <h3>Environmental Impact of Veganism</h3>
+          <p>How choosing plant-based food helps reduce climate change and deforestation.</p>
+          <p><strong>Date:</strong> August 5, 2025</p>
+          <a href="#registerModal" class="reg-btn">Register</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Past Webinars -->
+    <section style="margin-top: 50px;">
+      <h2>Past Webinars</h2>
+      <div class="past-webinars">
+        <div class="webinar-card">
+          <img src="./image2/b4.png" alt="Past Webinar">
+          <h3>Compassion in Action</h3>
+          <p>A talk on how veganism aligns with non-violence and compassion by Acharya Jiten Lal.</p>
+          <p><strong>Date:</strong> March 10, 2025</p>
+        </div>
+        <div class="webinar-card">
+          <img src="./image2/b5.png" alt="Past Webinar">
+          <h3>Veganism & Fitness</h3>
+          <p>Learn how plant-powered athletes build strength and stamina without meat or dairy.</p>
+          <p><strong>Date:</strong> January 20, 2025</p>
+        </div>
+        <div class="webinar-card">
+          <img src="./image2/b6.png" alt="Past Webinar">
+          <h3>Animal Rights Law in India</h3>
+          <p>Know your rights and how to advocate for animals legally in India.</p>
+          <p><strong>Date:</strong> December 12, 2024</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modals -->
+  <div id="joinModal" class="modal">
+    <div class="modal-content">
+      <a href="#" class="close">&times;</a>
+      <h3>Join Webinar</h3>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <button type="submit">Join Now</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="registerModal" class="modal">
+    <div class="modal-content">
+      <a href="#" class="close">&times;</a>
+      <h3>Register for Webinar</h3>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </div>
+
+
+  
+    <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Hello Vegan Logo">
+        </a>
+        <p>Promoting Compassion, Sustainability & Health through a Plant-Based Lifestyle.</p>
+      </div>
+  
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#health">Health Zone</a></li>
+          <li><a href="#resources">Free Resource</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#shop">Donation & Shop</a></li>
+          <li><a href="#membership">Membership</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Email: <a href="mailto:support@hellovegan.org">support@hellovegan.org</a></p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Location: Dombivli, Maharashtra, India</p>
+      </div>
+  
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"><img src="images/fb.png" alt="Facebook"></a>
+          <a href="https://instagram.com" target="_blank"><img src="images/insta1.png" alt="Instagram"></a>
+          <a href="https://twitter.com" target="_blank"><img src="images/x2.png" alt="Twitter"></a>
+          <a href="https://youtube.com" target="_blank"><img src="images/yu.png" alt="YouTube"></a>
+           <a href="" target="_blank"><img src="images/email.png" alt="Email"></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 Hello Vegan. All rights reserved. Designed with ❤️ for the Planet & Animals.</p>
+    </div>
+  </footer>
+  
+ 
+
+</body>
+</html>

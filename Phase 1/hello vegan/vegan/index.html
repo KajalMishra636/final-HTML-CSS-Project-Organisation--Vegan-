@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello Vegan</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="top-header">
+    <a href="index.html">
+      <img src="images/logo.png" alt="Hello Vegan Logo" class="logo">
+    </a>
+    <h1 class="slogan">"अहिंसा परमो धर्मः"</h1>
+   <!-- AUTH BUTTONS SECTION -->
+
+   <div class="auth-buttons">
+  <a href="#joinModal" class="join-btn">Join</a>
+  <a href="#registerModal" class="reg-btn">Register</a>
+</div>
+
+
+<!-- JOIN MODAL (place this after your navbar) -->
+<div id="joinModal" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Join Hello Vegan</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Join Now</button>
+    </form>
+  </div>
+</div>
+
+
+<div id="registerModal" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Register Account</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Create Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</div>
+
+  </header>
+  
+ <!-- Navbar -->
+<nav class="navbar">
+  
+ <ul>
+     <li class="dropdown">
+      <a href="index.html">Home</a>
+      <ul class="dropdown-menu">
+        <li><a href="webinar.html">Webinars</a></li>
+        <li><a href="#">Event</a></li>
+        <li><a href="#">Membership</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#">About ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Why we recommend a plant-based diet</a></li>
+        <li><a href="#">About PBHP UK</a></li>
+        <li><a href="#">Meet the team</a></li>
+        <li><a href="#">Affiliated Organisations</a></li>
+        <li><a href="">Our sponsors</a></li>
+      </ul>
+    </li>
+
+     <li class="dropdown">
+      <a href="#">Free Resources</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Factsheets</a></li>
+        <li><a href="#">Free Resources</a></li>
+        <li><a href="#">Health Zone</a></li>
+        <li><a href="#">Courses</a></li>
+      </ul>
+    </li>
+
+     <li class="dropdown">
+      <a href="#">Media</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Press Releases & Media</a></li>
+        <li><a href="#">Counsulation</a></li>
+        <li><a href="#">Campaign</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Podcast</a></li>
+      </ul>
+    </li>
+
+
+     <li class="dropdown">
+      <a href="#">Categories </a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Vegan Info</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="">Beauty</a></li>
+        <li><a href="">Apparel</a></li>
+        <li><a href="">Store</a></li>
+      </ul>
+    </li>
+
+     <li class="dropdown">
+      <a href="#">Contact </a>
+      <ul class="dropdown-menu">
+        <li><a href="#"></a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Vision</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="search-cart">
+  <form action="/search" method="GET" class="search-form">
+    <input type="text" name="q" placeholder="Search">
+    <button type="submit" class="search-btn">Search</button>
+    <a href="/cart" class="cart-icon">
+  <img src="images/vegan.png" alt="Cart" class="cart-image">
+</a>
+
+  </form>
+ 
+</div>
+  </nav>
+
+  <section class="banner">
+    <img src="images/banner.png" alt="Banner Image">
+    <div class="banner-text">
+      <h2>Go Vegan</h2>
+      <p>A Healthier, Kinder, and Greener Choice!</p>
+      <a href="#about"><button>About</button></a>
+
+    </div>
+  </section>
+
+  <section class="hello-vegan-section">
+    <div class="hello-vegan-container">
+      <div class="image-box">
+        <img src="images/2nd .png" alt="Hello Vegan">
+      </div>
+      <div class="text-box">
+        <blockquote>
+          "Choose Compassion. Live Green.<br>
+          Say Hello to a Kinder World."
+        </blockquote>
+        <a href="#new" class="cta-button">Check What's new in our website &gt;</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="health-pro-section">
+    <div class="health-pro-content">
+      <h2>Welcome to Hello Vegan <br><span>Health Professionals</span></h2>
+      <h3>Our Mission</h3>
+      <p>
+        We advance health through whole food plant-based nutrition and lifestyle medicine,
+        empowering healthcare professionals and communities to prevent, manage and treat
+        chronic disease alongside promoting planetary health.
+      </p>
+      <div class="health-pro-buttons">
+        <a href="#membership" class="btn-light">Join our membership</a>
+        <a href="#find-professional" class="btn-dark">Find a Plant-Base Professional</a>
+      </div>
+    </div>
+  
+    <div class="health-pro-image">
+      <img src="images/banner2.2.png" alt="Health Professional Image">
+    </div>
+  </section>
+  
+
+  <section class="campaign-section">
+    <div class="campaign-content">
+      <p>
+        Check out our campaign calling for plant-based meals to be the default in healthcare settings.
+      </p>
+      <a href="https://plantbasedhealthcare.org" class="campaign-button" target="_blank">
+        Visit Plant Base First Healthcare Site
+      </a>
+    </div>
+  </section>
+
+  <section class="stories-section" id="section8">
+  <h2 class="section-heading">Vegan Success Stories & Reports</h2>
+  <div class="stories-container">
+
+    <div class="story-card">
+      <img src="images/med1.png" alt="Doctor and Patient">
+      <h3>Read out food in Health Care Report</h3>
+      <a href="#">› Read more</a>
+    </div>
+
+    <div class="story-card">
+      <img src="images/med2.png" alt="Fruits and Vegetables Market">
+      <h3>Why we recommend a plant base diet</h3>
+      <a href="#">› Read more</a>
+    </div>
+
+    <div class="story-card">
+      <img src="images/med3.png" alt="Weight Loss Transformation">
+      <h3>Life Changing Transformations</h3>
+      <a href="#">› Read more</a>
+    </div>
+
+    <div class="story-card">
+      <img src="images/med4.png" alt="Vegan Activity Board">
+      <h3>Activity</h3>
+      <a href="#">› Read more</a>
+    </div>
+
+  </div>
+</section>
+
+  
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Hello Vegan Logo">
+        </a>
+        <p>Promoting Compassion, Sustainability & Health through a Plant-Based Lifestyle.</p>
+      </div>
+  
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#health">Health Zone</a></li>
+          <li><a href="#resources">Free Resource</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#shop">Donation & Shop</a></li>
+          <li><a href="#membership">Membership</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Email: <a href="mailto:support@hellovegan.org">support@hellovegan.org</a></p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Location: Dombivli, Maharashtra, India</p>
+      </div>
+  
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"><img src="images/fb.png" alt="Facebook"></a>
+          <a href="https://instagram.com" target="_blank"><img src="images/insta1.png" alt="Instagram"></a>
+          <a href="https://twitter.com" target="_blank"><img src="images/x2.png" alt="Twitter"></a>
+          <a href="https://youtube.com" target="_blank"><img src="images/yu.png" alt="YouTube"></a>
+           <a href="" target="_blank"><img src="images/email.png" alt="Email"></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 Hello Vegan. All rights reserved. Designed with ❤️ for the Planet & Animals.</p>
+    </div>
+  </footer>
+  
+
+  
+</body>
+</html>
