@@ -130,7 +130,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 📬 Contact
 
 - **Author:** Kajal Mishra
-- **Email:** kajalmishra@example.com
+- **Email:** kajalmishraa345@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/kajal-mishra-b64bb8308)
 - [GitHub](https://github.com/KajalMishra636)
 
