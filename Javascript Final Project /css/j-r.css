@@ -1,0 +1,23 @@
+body{
+    background-color: brown rgb(182, 104, 104);
+    color: #271106;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 1s ease;
+    box-shadow: 0 8px 20px rgba(red, green, blue, alpha);
+}
+
+h2{
+    color: rgb(140, 84, 192);
+    text-shadow: #fc0 1px 0 10px;
+    
+}
+
